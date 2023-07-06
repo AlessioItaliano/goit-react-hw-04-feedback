@@ -8,7 +8,7 @@ const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
       <StatisticsItem>Neutral: {neutral}</StatisticsItem>
       <StatisticsItem>Bad: {bad}</StatisticsItem>
       <StatisticsItem>Total: {total}</StatisticsItem>
-      <StatisticsItem>PositiveFeedback: {positivePercentage}%</StatisticsItem>
+      <StatisticsItem>PositiveFeedback: {positivePercentage} %</StatisticsItem>
     </StatisticsList>
   );
 };
